@@ -1,0 +1,22 @@
+body{
+    background-color: lightblue;
+    text-align: center;
+}
+
+#cookieButton {
+    border: none;
+    background: none; 
+    padding: 0; 
+    cursor: pointer;
+  }
+  
+  #cookieImage {
+    width: 200px;   
+    height: auto; 
+    display: block;
+    transition: transform 0.1s;
+  }
+  
+  #cookieButton:active #cookieImage {
+    transform: scale(0.9);
+  }

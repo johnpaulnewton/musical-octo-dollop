@@ -1,0 +1,36 @@
+<!-- <!DOCTYPE html>
+<h1>
+    You've clicked <span id="count"> 0 </span> times
+</h1>
+<script>
+let count = 0;
+function incrementCounter() {
+    count++;
+    document.getElementById("count").textContent = count;
+}
+</script>
+<button onclick="incrementCounter()"> click me! </button> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cookie Clicker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Cookie Clicker</h1>
+  <h2>You've clicked <span id="count">0</span> times</h2>
+    <button id="cookieButton" onclick="incrementCounter()">
+        <img src="cookie.png" alt="Cookie" id="cookieImage">
+    </button>
+
+  <script>
+    let count = 0;
+    function incrementCounter() {
+      count++;
+      document.getElementById("count").textContent = count;
+    }
+  </script>
+</body>
+</html>
